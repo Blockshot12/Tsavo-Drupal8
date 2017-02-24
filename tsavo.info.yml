@@ -1,0 +1,17 @@
+name: Tsavo
+type: theme
+description: 'Tsavo is a flexible Drupal 8 theme, with regions and a mobile-first layout.'
+package: Tsavo
+core: 8.x
+
+libraries:
+
+regions:
+  sitename: 'Sitename'
+  primary_menu: 'Primary menu'
+  help: 'Help'
+  title_bar: 'Title Bar'
+  alert: 'Alert'
+  content: 'Main Content'
+  footer: 'Footer'
+  copyright: 'Copyright'
