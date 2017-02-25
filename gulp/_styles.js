@@ -61,5 +61,5 @@ gulp.task('styles', () => {
 
 gulp.task('styles-reload', () => {
   return buildStyles()
-    .pipe(browserSync.stream())
+    .pipe(browserSync.reload({ stream: true }))
 })

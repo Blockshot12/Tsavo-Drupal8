@@ -2,7 +2,6 @@
 
 import gulp from 'gulp'
 import browserSync from 'browser-sync'
-import runSequence from 'run-sequence'
 import * as conf from './_conf'
 
 import gulpLoadPlugins from 'gulp-load-plugins'
@@ -14,5 +13,5 @@ gulp.task('clean', () => {
 });
 
 gulp.task('build', ['clean'], () => {
-  gulp.start('styles','scripts','images')
+  gulp.start('styles','scripts','images','favicons')
 });

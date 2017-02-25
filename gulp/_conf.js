@@ -7,6 +7,7 @@ export const dirs = {
 
 export const paths = {
   local: `http://tsavo2.dd:8083/`,
+  domain: `http://www.tsavo.eu`,
   styles: {
     src: `${dirs.src}/scss/**/*.scss`,
     dist: `${dirs.dist}/css`
@@ -20,7 +21,14 @@ export const paths = {
     src: `${dirs.src}/img/**/*`,
     dist: `${dirs.dist}/img`
   },
+  favicons: {
+    src: `${dirs.src}/icon/favicon.png`,
+    dist: `${dirs.dist}/icon`
+  },
   twigs: {
     src: `templates/**/*`
+  },
+  yaml: {
+    src: `./**/*.yml`
   }
 }
