@@ -5,6 +5,9 @@ package: Tsavo
 core: 8.x
 
 libraries:
+  - 'tsavo/font-google-css'
+  - 'tsavo/global-css'
+  - 'core/normalize'
 
 regions:
   sitename: 'Sitename'
