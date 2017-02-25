@@ -42,7 +42,7 @@ let buildFavicons = () => {
       version: 1.0,
       logging: false,
       online: false,
-      html: "",
+      html: false,
       pipeHTML: false,
       replace: true
       }))
