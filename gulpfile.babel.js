@@ -1,7 +1,7 @@
 'use strict'
 
-let fs = require('fs')
-let gulp = require('gulp')
+const fs = require('fs')
+const gulp = require('gulp')
 
 /**
  *  Load all gulp tasks.
