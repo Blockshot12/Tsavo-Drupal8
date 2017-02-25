@@ -1,0 +1,27 @@
+{
+  "name": "tsavo_eu",
+  "description": "<h1>Tsavo Theme</h1>",
+  "main": "gulpfile.babel.js",
+  "authors": [
+    "Francois van Leersum"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "drupal8",
+    "theme",
+    "tsavo",
+    "gulp",
+    "browsersync"
+  ],
+  "homepage": "https://github.com/Blockshot12/Tsavo-Drupal8",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "compass-sass-mixins": "*"
+  }
+}
